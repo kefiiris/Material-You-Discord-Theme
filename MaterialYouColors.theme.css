@@ -6,8 +6,16 @@
  * @source https://github.com/JustAlittleWolf/Material-You-Discord-Theme
 */
 
+@import url('https://github.com/Quinxxxx/Meloso/blob/main/Meloso-Bold.ttf?raw=1');
+
 /* Variables */
 :root {
+    --Chat-Font-Used: 'ABCGintoNord-ExtraBold' ;
+    --Chat-Font-Size: 14px;
+
+    --font-primary: var(--Chat-Font-Used);
+    --font-display: var(--Chat-Font-Used);
+    --font-code: var(--Chat-Font-Used);
     /*
      * Select which hue of color you want Discord to be themed in.
      * You can select a hue by going to https://htmlcolorcodes.com/color-picker/,
